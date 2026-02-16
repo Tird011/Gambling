@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 
-from app.calculations.elo_calc import EloEngine
-from app.calculations.total_calc import TotalsEngine
+from app.logic.elo_calc import EloEngine
+from app.logic.total_calc import TotalsEngine
 
 app = FastAPI(title="NBA Quant Brain 2026")
 
@@ -68,3 +68,4 @@ async def get_full_prediction(data: PredictionRequest):
 @app.get("/health")
 def health_check():
     return {"status": "online", "engine": "v1.0-Feb2026"}
+
