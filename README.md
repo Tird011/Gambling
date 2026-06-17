@@ -1,2 +1,2 @@
-<h1>NBA Winrate Predictor</h1>
-<p>Date Estimation of prototype:Feb 27- Early March</p>
+<h1>Machine Learning Sports Data Predictor</h1>
+<p>Date of Production:Summer June-August</p>
